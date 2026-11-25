@@ -1,0 +1,272 @@
+{
+  "n_labeled": 300,
+  "n_train": 180,
+  "n_test": 120,
+  "test_from_year": 2020,
+  "classes_with_fewer_than_5_train_examples": [
+    "physical_damage",
+    "other",
+    "unclear"
+  ],
+  "leakage_check": {
+    "threshold": 0.9,
+    "test_near_copies_of_train": 1,
+    "n_test": 120
+  },
+  "models": [
+    {
+      "model": "majority",
+      "accuracy": 0.308,
+      "lenient_accuracy": 0.308,
+      "macro_f1": 0.052,
+      "macro_f1_classes": [
+        "accuracy",
+        "signal_acquisition",
+        "alarm",
+        "display",
+        "power_battery",
+        "physical_damage",
+        "patient_contact",
+        "software_behavior",
+        "other"
+      ],
+      "macro_f1_ci95": [
+        0.041,
+        0.063
+      ],
+      "per_class": {
+        "accuracy": {
+          "precision": 0.308,
+          "recall": 1.0,
+          "f1": 0.471,
+          "support": 37
+        },
+        "signal_acquisition": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 11
+        },
+        "alarm": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 14
+        },
+        "display": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 4
+        },
+        "power_battery": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 13
+        },
+        "physical_damage": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 7
+        },
+        "patient_contact": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 20
+        },
+        "software_behavior": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10
+        },
+        "other": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 4
+        },
+        "unclear": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        }
+      }
+    },
+    {
+      "model": "keywords",
+      "accuracy": 0.567,
+      "lenient_accuracy": 0.567,
+      "macro_f1": 0.602,
+      "macro_f1_classes": [
+        "accuracy",
+        "signal_acquisition",
+        "alarm",
+        "display",
+        "power_battery",
+        "physical_damage",
+        "patient_contact",
+        "software_behavior",
+        "other"
+      ],
+      "macro_f1_ci95": [
+        0.483,
+        0.698
+      ],
+      "per_class": {
+        "accuracy": {
+          "precision": 0.938,
+          "recall": 0.405,
+          "f1": 0.566,
+          "support": 37
+        },
+        "signal_acquisition": {
+          "precision": 1.0,
+          "recall": 0.455,
+          "f1": 0.625,
+          "support": 11
+        },
+        "alarm": {
+          "precision": 0.688,
+          "recall": 0.786,
+          "f1": 0.733,
+          "support": 14
+        },
+        "display": {
+          "precision": 0.444,
+          "recall": 1.0,
+          "f1": 0.615,
+          "support": 4
+        },
+        "power_battery": {
+          "precision": 0.818,
+          "recall": 0.692,
+          "f1": 0.75,
+          "support": 13
+        },
+        "physical_damage": {
+          "precision": 0.8,
+          "recall": 0.571,
+          "f1": 0.667,
+          "support": 7
+        },
+        "patient_contact": {
+          "precision": 0.947,
+          "recall": 0.9,
+          "f1": 0.923,
+          "support": 20
+        },
+        "software_behavior": {
+          "precision": 0.25,
+          "recall": 0.1,
+          "f1": 0.143,
+          "support": 10
+        },
+        "other": {
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4,
+          "support": 4
+        },
+        "unclear": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        }
+      }
+    },
+    {
+      "model": "tfidf_logreg",
+      "accuracy": 0.533,
+      "lenient_accuracy": 0.542,
+      "macro_f1": 0.425,
+      "macro_f1_classes": [
+        "accuracy",
+        "signal_acquisition",
+        "alarm",
+        "display",
+        "power_battery",
+        "physical_damage",
+        "patient_contact",
+        "software_behavior",
+        "other"
+      ],
+      "macro_f1_ci95": [
+        0.331,
+        0.496
+      ],
+      "per_class": {
+        "accuracy": {
+          "precision": 0.622,
+          "recall": 0.622,
+          "f1": 0.622,
+          "support": 37
+        },
+        "signal_acquisition": {
+          "precision": 0.188,
+          "recall": 0.273,
+          "f1": 0.222,
+          "support": 11
+        },
+        "alarm": {
+          "precision": 0.333,
+          "recall": 0.214,
+          "f1": 0.261,
+          "support": 14
+        },
+        "display": {
+          "precision": 0.375,
+          "recall": 0.75,
+          "f1": 0.5,
+          "support": 4
+        },
+        "power_battery": {
+          "precision": 0.667,
+          "recall": 0.769,
+          "f1": 0.714,
+          "support": 13
+        },
+        "physical_damage": {
+          "precision": 0.2,
+          "recall": 0.143,
+          "f1": 0.167,
+          "support": 7
+        },
+        "patient_contact": {
+          "precision": 0.789,
+          "recall": 0.75,
+          "f1": 0.769,
+          "support": 20
+        },
+        "software_behavior": {
+          "precision": 0.545,
+          "recall": 0.6,
+          "f1": 0.571,
+          "support": 10
+        },
+        "other": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 4
+        },
+        "unclear": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        }
+      }
+    }
+  ],
+  "secondary_cv_all_years": {
+    "note": "5-fold stratified CV over all years; optimistic (no date split)",
+    "tfidf_logreg_macro_f1": 0.477,
+    "keywords_macro_f1": 0.546
+  }
+}

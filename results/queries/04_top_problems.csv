@@ -1,0 +1,16 @@
+problem,n_reports,pct_of_reports
+Incorrect Measurement,2392,16.8
+No Audible Alarm,1396,9.8
+Display or Visual Feedback Problem,1113,7.8
+Device Operates Differently Than Expected,825,5.8
+Low Readings,773,5.4
+Device Alarm System,748,5.3
+High Readings,482,3.4
+Device Stops Intermittently,411,2.9
+Sensing Intermittently,406,2.9
+Failure To Run On AC/DC,406,2.9
+No Display/Image,398,2.8
+Battery Problem,391,2.7
+Component Missing,331,2.3
+Unexpected Shutdown,322,2.3
+Inappropriate or Unexpected Reset,285,2.0

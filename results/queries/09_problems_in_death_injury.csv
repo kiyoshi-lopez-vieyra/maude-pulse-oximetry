@@ -1,0 +1,16 @@
+problem,death,injury,total_harm_reports
+Device Alarm System,111,40,151
+Patient-Device Incompatibility,0,105,105
+Adverse Event Without Identified Device or Use Problem,46,30,76
+Incorrect Measurement,24,44,68
+High Readings,22,27,49
+No Audible Alarm,28,14,42
+Device Operates Differently Than Expected,9,25,34
+Insufficient Device Problem Information,14,19,33
+Unable to Obtain Readings,8,23,31
+Unknown (for use when the device problem is not known),11,19,30
+Appropriate Device Problem Term/Code Not Available,13,9,22
+Contamination /Decontamination Problem,0,21,21
+Failure to Analyze Signal,3,17,20
+Use of Device Problem,3,16,19
+Display or Visual Feedback Problem,6,13,19

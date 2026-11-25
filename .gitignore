@@ -1,0 +1,24 @@
+# Secrets: never commit the real API key
+.env
+.env.*
+!.env.example
+
+# Downloaded and generated data (reproducible from scripts)
+data/raw/*
+data/processed/*
+*.db
+*.sqlite
+
+# Working files that are not part of the published project
+labels/sample_to_label.csv
+labels/audit_review.xlsx
+~$*
+
+# Python and editors
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+Thumbs.db

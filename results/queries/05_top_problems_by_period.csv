@@ -1,0 +1,28 @@
+period,problem,n_reports,n_period,pct_of_period
+1_before_2014,Device Alarm System,262,3053,8.6
+2_2014_2019,Device Alarm System,166,7413,2.2
+3_2020_2026,Device Alarm System,320,3768,8.5
+1_before_2014,Device Operates Differently Than Expected,134,3053,4.4
+2_2014_2019,Device Operates Differently Than Expected,691,7413,9.3
+1_before_2014,Device Stops Intermittently,15,3053,0.5
+2_2014_2019,Device Stops Intermittently,396,7413,5.3
+1_before_2014,Display or Visual Feedback Problem,40,3053,1.3
+2_2014_2019,Display or Visual Feedback Problem,993,7413,13.4
+3_2020_2026,Display or Visual Feedback Problem,80,3768,2.1
+1_before_2014,Failure To Run On AC/DC,2,3053,0.1
+2_2014_2019,Failure To Run On AC/DC,404,7413,5.4
+1_before_2014,High Readings,135,3053,4.4
+2_2014_2019,High Readings,97,7413,1.3
+3_2020_2026,High Readings,250,3768,6.6
+1_before_2014,Incorrect Measurement,2,3053,0.1
+2_2014_2019,Incorrect Measurement,1732,7413,23.4
+3_2020_2026,Incorrect Measurement,658,3768,17.5
+1_before_2014,Low Readings,46,3053,1.5
+2_2014_2019,Low Readings,311,7413,4.2
+3_2020_2026,Low Readings,416,3768,11.0
+1_before_2014,No Audible Alarm,1189,3053,38.9
+2_2014_2019,No Audible Alarm,157,7413,2.1
+3_2020_2026,No Audible Alarm,50,3768,1.3
+1_before_2014,Sensing Intermittently,1,3053,0.0
+2_2014_2019,Sensing Intermittently,146,7413,2.0
+3_2020_2026,Sensing Intermittently,259,3768,6.9
